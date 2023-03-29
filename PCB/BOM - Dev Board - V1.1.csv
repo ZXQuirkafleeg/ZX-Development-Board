@@ -1,0 +1,13 @@
+﻿Name,Designator,Quantity,Notes
+100nF,"C1,C3,C4,C5,C6,C7,C8,C9",8,
+47uF,C2,1,
+RC2014 Male RA 40,J1,1,
+Header-Male-2.54_1x40,"J2,J5",2,optional
+HDR-M-2.54_2x2,J3,1,
+Header5X2,J4,1,
+HDR-M-2.54_1x3,"J6,J7,J8,J9,J10,J11,J12",7,
+2N3904,Q1,1,
+1K,"R1,R2,R3",3,
+EPM7128SLC84,U1,1,and PLCC 84 socket
+SST39SF040-70-4C-PHE_C220176,U2,1,"or 28C64, 28C256 etc"
+HM628128D,U3,1,or 62256 etc

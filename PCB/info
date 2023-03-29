@@ -1,0 +1,441 @@
+{
+  "uuid": "f60fdcf74aa86b0b03e47e6bb8486cd8",
+  "path": "Offline/RC2014%20-%20FPGA%20Dev%20Board%20-%20V1.1",
+  "name": "RC2014 - FPGA Dev Board - V1.1",
+  "content": "",
+  "created_at": "2022-02-12 15:49:05",
+  "updated_at": "2023-03-29 14:24:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "331c0f51f4707a28fbfc8f6a179ed4b8",
+      "title": "SCH - RC2014 - Dev V1.1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1680052962,
+      "createTime": 1647051744,
+      "histories": [],
+      "created_at": "2022-03-12 15:22:24",
+      "updated_at": "2023-03-29 14:22:42",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          8,
+          "CAP-TH_L5.5-W3.5-P2.50-D0.5 COPY",
+          "C1,C3,C4,C5,C6,C7,C8,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "100nF (104) ±20% 100V",
+            "BOM_Supplier Part": "C72322",
+            "puuid": "64f0880e278e480098c66fa92784f26c",
+            "uuid": "7f474ecfe86cad0db40a161c696fe62f"
+          }
+        ],
+        [
+          "47uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D1.0-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C190654",
+            "BOM_Manufacturer": "Changzhou Huawei Elec",
+            "BOM_Manufacturer Part": "KM1H470ME110A00CV0",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1a9b494b74c34d3b879eb7f824b3824d",
+            "uuid": "4be4c3425bd24885a3069bf9b90591cd"
+          }
+        ],
+        [
+          "RC2014 Male 40",
+          1,
+          "HDR-1X40-A-M-R-2.54MM",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a12d9c123b504547a7ac6826a9e275cf",
+            "uuid": "49c16a621a0b4e6bbc9d426f05fa76c3"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x40",
+          2,
+          "HDR-TH_40P-P2.54-V-M-1",
+          "J2,J5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1x40P",
+            "BOM_Supplier Part": "C2337",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0148117b2f39499e82b7fc88f43263b5",
+            "uuid": "b670f717fa420f29c01ce13e11c6490b"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x2",
+          1,
+          "HDR-M-2.54_2X2",
+          "J3",
+          {
+            "BOM_Supplier Part": "C66690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8c011694efe04de7ac0c392bf11240d5",
+            "uuid": "0d0a13f4d5e4481aa82dc0293d1aa27e"
+          }
+        ],
+        [
+          "Header5X2",
+          1,
+          "HDR-M-2.54_2X5",
+          "J4",
+          {
+            "BOM_Supplier Part": "S9169-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer": "Sullins",
+            "BOM_Manufacturer Part": "SBH11-PBPC-D05-ST-BK",
+            "puuid": "bac709540ef743c1b77cca6f50c949b7",
+            "uuid": "cc03d4a8e71b44fd9d9eb6f0ca04f145"
+          }
+        ],
+        [
+          "2N3904TFR",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C258185",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "2N3904TFR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "619489e674074de888fe8dd8f6b9799e",
+            "uuid": "8fe851a670ed419e91bb3fe99231e0a1"
+          }
+        ],
+        [
+          "EPM7128SLC84",
+          1,
+          "PLCC84_PTH-SKT",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "EPM7128SLC84",
+            "BOM_Supplier Part": "692-Z8S18020VEG",
+            "BOM_Supplier": "Mouser",
+            "puuid": "4d527d446d81442fba3865319d0cddb9",
+            "uuid": "2cc22bb9b8c7473f8eee8040d81fcf8d"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          7,
+          "HDR-M-2.54_1X3",
+          "J6,J7,J8,J9,J10,J11,J12",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "1K",
+          3,
+          "R_AXIAL-0.3 COPY",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "669d1f209c1049a2b5e17b3eb1d3fef0",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "SST39SF040-70-4C-PHE_C220176",
+          1,
+          "PDIP-32_L42.0-W13.7-P2.54-LS15.2-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C220176",
+            "BOM_Manufacturer": "Microchip Tech",
+            "BOM_Manufacturer Part": "SST39SF040-70-4C-PHE",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9cf513ff5f254c7ba96fbc5a8931265e",
+            "uuid": "7c5db3a506df49d4a7aed0f649143a5e"
+          }
+        ],
+        [
+          "HM628128D",
+          1,
+          "HM628128ALP-7 COPY",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9543c748eba14b84ab296849364567e1",
+            "uuid": "f500190cba9743bcb28d40e869c7ca0f"
+          }
+        ]
+      ],
+      "components": {
+        "2cc22bb9b8c7473f8eee8040d81fcf8d": 1,
+        "cc03d4a8e71b44fd9d9eb6f0ca04f145": 1,
+        "7f474ecfe86cad0db40a161c696fe62f": 8,
+        "4be4c3425bd24885a3069bf9b90591cd": 1,
+        "49c16a621a0b4e6bbc9d426f05fa76c3": 1,
+        "8fe851a670ed419e91bb3fe99231e0a1": 1,
+        "0d0a13f4d5e4481aa82dc0293d1aa27e": 1,
+        "b670f717fa420f29c01ce13e11c6490b": 2
+      }
+    },
+    {
+      "uuid": "545d9deafaffc9121e3145349499d58d",
+      "title": "SCH - ROM & RAM",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7c5db3a506df49d4a7aed0f649143a5e": 1,
+        "f500190cba9743bcb28d40e869c7ca0f": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 7,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          8,
+          "CAP-TH_L5.5-W3.5-P2.50-D0.5 COPY",
+          "C1,C3,C4,C5,C6,C7,C8,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "100nF (104) ±20% 100V",
+            "BOM_Supplier Part": "C72322",
+            "puuid": "64f0880e278e480098c66fa92784f26c",
+            "uuid": "7f474ecfe86cad0db40a161c696fe62f"
+          }
+        ],
+        [
+          "47uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D1.0-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C190654",
+            "BOM_Manufacturer": "Changzhou Huawei Elec",
+            "BOM_Manufacturer Part": "KM1H470ME110A00CV0",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1a9b494b74c34d3b879eb7f824b3824d",
+            "uuid": "4be4c3425bd24885a3069bf9b90591cd"
+          }
+        ],
+        [
+          "RC2014 Male 40",
+          1,
+          "HDR-1X40-A-M-R-2.54MM",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a12d9c123b504547a7ac6826a9e275cf",
+            "uuid": "49c16a621a0b4e6bbc9d426f05fa76c3"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x40",
+          2,
+          "HDR-TH_40P-P2.54-V-M-1",
+          "J2,J5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1x40P",
+            "BOM_Supplier Part": "C2337",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0148117b2f39499e82b7fc88f43263b5",
+            "uuid": "b670f717fa420f29c01ce13e11c6490b"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x2",
+          1,
+          "HDR-M-2.54_2X2",
+          "J3",
+          {
+            "BOM_Supplier Part": "C66690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8c011694efe04de7ac0c392bf11240d5",
+            "uuid": "0d0a13f4d5e4481aa82dc0293d1aa27e"
+          }
+        ],
+        [
+          "Header5X2",
+          1,
+          "HDR-M-2.54_2X5",
+          "J4",
+          {
+            "BOM_Supplier Part": "S9169-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer": "Sullins",
+            "BOM_Manufacturer Part": "SBH11-PBPC-D05-ST-BK",
+            "puuid": "bac709540ef743c1b77cca6f50c949b7",
+            "uuid": "cc03d4a8e71b44fd9d9eb6f0ca04f145"
+          }
+        ],
+        [
+          "2N3904TFR",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C258185",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "2N3904TFR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "619489e674074de888fe8dd8f6b9799e",
+            "uuid": "8fe851a670ed419e91bb3fe99231e0a1"
+          }
+        ],
+        [
+          "EPM7128SLC84",
+          1,
+          "PLCC84_PTH-SKT",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "EPM7128SLC84",
+            "BOM_Supplier Part": "692-Z8S18020VEG",
+            "BOM_Supplier": "Mouser",
+            "puuid": "4d527d446d81442fba3865319d0cddb9",
+            "uuid": "2cc22bb9b8c7473f8eee8040d81fcf8d"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          7,
+          "HDR-M-2.54_1X3",
+          "J6,J7,J8,J9,J10,J11,J12",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "1K",
+          3,
+          "R_AXIAL-0.3 COPY",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "669d1f209c1049a2b5e17b3eb1d3fef0",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "SST39SF040-70-4C-PHE_C220176",
+          1,
+          "PDIP-32_L42.0-W13.7-P2.54-LS15.2-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C220176",
+            "BOM_Manufacturer": "Microchip Tech",
+            "BOM_Manufacturer Part": "SST39SF040-70-4C-PHE",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9cf513ff5f254c7ba96fbc5a8931265e",
+            "uuid": "7c5db3a506df49d4a7aed0f649143a5e"
+          }
+        ],
+        [
+          "HM628128D",
+          1,
+          "HM628128ALP-7 COPY",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9543c748eba14b84ab296849364567e1",
+            "uuid": "f500190cba9743bcb28d40e869c7ca0f"
+          }
+        ]
+      ],
+      "updateTime": 1680053070,
+      "createTime": 1680052961,
+      "histories": [],
+      "created_at": "2023-03-29 14:22:41",
+      "updated_at": "2023-03-29 14:24:30"
+    },
+    {
+      "uuid": "b2be73af9a7b86ac665fd4971f16b8af",
+      "title": "PCB- RC2014- Dev V1.1",
+      "filename": "PCB- RC2014- Dev V1.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1660684848,
+      "createTime": 1647646297,
+      "histories": [],
+      "created_at": "2022-03-19 12:31:37",
+      "updated_at": "2022-08-17 09:20:48",
+      "components": {
+        "64f0880e278e480098c66fa92784f26c": 8,
+        "0148117b2f39499e82b7fc88f43263b5": 2,
+        "8c011694efe04de7ac0c392bf11240d5": 1,
+        "bac709540ef743c1b77cca6f50c949b7": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 7,
+        "669d1f209c1049a2b5e17b3eb1d3fef0": 3,
+        "619489e674074de888fe8dd8f6b9799e": 1,
+        "9543c748eba14b84ab296849364567e1": 1,
+        "9cf513ff5f254c7ba96fbc5a8931265e": 1,
+        "1a9b494b74c34d3b879eb7f824b3824d": 1,
+        "a12d9c123b504547a7ac6826a9e275cf": 1,
+        "4d527d446d81442fba3865319d0cddb9": 1
+      }
+    }
+  ],
+  "sort": [
+    "331c0f51f4707a28fbfc8f6a179ed4b8",
+    "545d9deafaffc9121e3145349499d58d"
+  ],
+  "title": "RC2014 - FPGA Dev Board - V1.1",
+  "foldername": "RC2014 - FPGA Dev Board - V1.1",
+  "schfilename": "SCH - RC2014- Dev V1.1 - freeroute.json",
+  "schfilemtime": 1680053070202
+}
